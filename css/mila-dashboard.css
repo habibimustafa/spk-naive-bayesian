@@ -1,0 +1,141 @@
+body { 
+	font: 12px Arial, Sans-Serif; 
+	line-height: 1.8em; 
+	background: #fefefe; 
+	color: #444; 
+	margin:20px; 
+}
+.center {text-align: center !important;}
+.middle {vertical-align: middle !important;}
+.container {margin-top:2em;}
+.well h2 {text-transform:capitalize;}
+.name {text-transform:uppercase;}
+.chart svg {
+	height: 348px;
+	width: 691px;
+}
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .panel-title {
+    text-transform:capitalize;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+
+.filterable .table tbody tr:nth-child(odd){ background-color:#f4f9ff; }
+.filterable .table tbody tr:nth-child(even){ background-color:#ffffff; }
+.filterable .table tfoot tr { background-color:#eeeeff; }
+.filterable .table tfoot tr th:first-child{ text-align:center; }
+
+.probabilitas {margin-top: 0px;}
+.tabulasi > li {}
+.tabulasi > li + li {}
+.tabulasi > li > a{
+	background-color: #fefefe;
+	border-radius: 8px 8px 0 0;
+}
+.tabulasi > li > a:hover, 
+.tabulasi > li > a:focus {
+	background-color:#ff0;
+}
+.tabulasi > li.active > a, 
+.tabulasi > li.active > a:hover, 
+.tabulasi > li.active > a:focus {
+	color: #ffffff;
+	background-color: #008cba;	
+}
+
+.filterable  .populasi .table tbody tr { 
+	background-color:transparent; 
+}
+.populasi .table tbody th:first-child {
+	width: 300px;
+}
+.populasi .table tbody th[rowspan],
+.populasi .table tbody td[rowspan] {
+	vertical-align:middle;
+}
+.populasi .table tbody th[rowspan] + td,
+.populasi .table tbody td[rowspan] + td {
+	width:50px;
+}
+.populasi .table tbody .per td {
+	width:50px;
+	border-top: 1px solid #444;
+}
+.populasi .table tbody td.wide ,
+.populasi .table tbody td[rowspan].wide {
+	width:150px;
+	text-align:center;
+}
+.populasi .table tbody td.wide input[disabled],
+.populasi .table tbody td[rowspan].wide input[disabled] {
+	width:150px;
+}
+.populasi .table input[disabled] {
+	background-color: #fefefe;
+	text-align:center;
+	width: 50px;
+	padding: 3px;
+	cursor: auto;
+	color: red;
+	border: 1px solid #444;
+}
+.populasi .table input[disabled]::-webkit-input-placeholder {
+    color: #444;
+}
+.populasi .table input[disabled]::-moz-placeholder {
+    color: #444;
+}
+.populasi .table input[disabled]:-ms-input-placeholder {
+    color: #444;
+}
+
+.latex img {width:200px;}
+
+select {padding: 7px; font-size: 12px;}
+.navbar-default { background: black; }
+.label,.glyphicon { margin-right:5px; }
+.alert-warning { color: black; }
+.btn_edit, .btn_delete, .btn_detail { padding: 0px 4px; text-align: center; }
+.btn_edit .glyphicon, .btn_delete .glyphicon, .btn_detail .glyphicon {margin-right:0;}
+.navbar-default .dropdown-menu > li > a:hover, 
+.navbar-default .dropdown-menu > .active > a, 
+.navbar-default .dropdown-menu > .active > a:hover, 
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: black;
+}
+
+#result {
+	background: #FFFF33;
+	display: none;
+	margin: 0;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 12px;
+}
+
+#dataform {display:none}
+
+@import url("accordion-menu.css");
+@import url("carousel-slideshow.css");
+@import url("jquery.dataTables.css");

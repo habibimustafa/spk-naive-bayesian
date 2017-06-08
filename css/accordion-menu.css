@@ -1,0 +1,25 @@
+#accordion .panel-default > .panel-heading {
+	padding:0;
+}
+#accordion .panel-title {
+	padding: 10px 15px;
+}
+#accordion .panel-title > a {
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+}
+#accordion .table > tbody > tr > td {
+	border-top: none;
+	border-bottom: 1px dotted #dddddd;
+}
+#accordion td:hover {
+	background: yellow;
+	cursor: pointer;
+}
+#accordion td a{
+	display: block;
+}
+#accordion td a:hover {
+	text-decoration: none;
+}
